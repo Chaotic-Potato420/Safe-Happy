@@ -1,0 +1,73 @@
+{
+  "name": "chaoticpotato/veets",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/welcome.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "welcome"
+      }
+    },
+    "functions/events/discord/message/reaction/add.js": {
+      "name": "discord.message.reaction.add"
+    },
+    "functions/events/discord/message/reaction/remove.js": {
+      "name": "discord.message.reaction.remove"
+    },
+    "functions/events/discord/command/show.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "show"
+      }
+    },
+    "functions/events/discord/command/suicide.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "suicide"
+      }
+    },
+    "functions/events/discord/command/s_a.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "s_a"
+      }
+    },
+    "functions/events/discord/command/child_abuse.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "child_abuse"
+      }
+    },
+    "functions/events/discord/command/substance.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "substance"
+      }
+    },
+    "functions/events/discord/command/domestic.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "domestic"
+      }
+    },
+    "functions/events/discord/message/create/prefix/warn.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!warn"
+      }
+    },
+    "functions/events/discord/command/show_mods.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "show_mods"
+      }
+    },
+    "functions/events/discord/command/activities.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "activities"
+      }
+    }
+  }
+}
